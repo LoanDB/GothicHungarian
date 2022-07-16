@@ -13,7 +13,7 @@ class Dataset(BaseDataset):
         """
         Download files to the raw/ directory. You can use helpers methods of `self.raw_dir`, e.g.
         """
-        self.raw_dir.download("https://raw.githubusercontent.com/martino-vic/gerstnerhungarian/new/cldf/forms.csv", "hun.csv")
+        self.raw_dir.download("https://raw.githubusercontent.com/martino-vic/gerstnerhungarian/main/cldf/forms.csv", "hun.csv")
         self.raw_dir.download("https://raw.githubusercontent.com/martino-vic/streitberggothic/new/cldf/forms.csv", "got.csv")
 
         pass
