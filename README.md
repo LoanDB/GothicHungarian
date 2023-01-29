@@ -16,7 +16,7 @@ Open demo.ipynb and click yourself through the cells
 3. ad_got_forms.csv: Predictions how Gothic words would have been adapted into Early Ancient Hungarian
 4. rc_hun_forms.csv: Predictions how Hungarian words would have sounded in Early Ancient Hungarian
 
-## Files for manual insepction:
+## Files for manual inspection:
 
 - cache_ad.csv, cache_ad2.csv: See how the model performs on predicting loanword adaptation from Gothic into Early Ancient Hungarian with different parameter settings
 - cache_rc.csv: See how the model performs on reconstructing from Hungarian into Early Ancient Hungarian with different parameter settings
