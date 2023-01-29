@@ -1,0 +1,19 @@
+﻿forms_csv,source_language,target_language,mode,write_to,path2cache,clusters,vowelharmony,phonotactics_filter,max_repaired_phonotactics,max_paths2repaired_phonotactics,opt_tpr,optimal_howmany,opt_tp,timing,date
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,2,2,84%,51,387/463,00:01:03,01/28/23 14:00:41
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,5,3,84%,51,391/463,00:01:02,01/28/23 14:16:16
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,5,5,84%,51,389/463,00:01:02,01/28/23 14:17:19
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,8,3,84%,51,389/463,00:01:05,01/28/23 14:19:27
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,3,3,84%,51,391/463,00:01:02,01/28/23 14:13:10
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,3,5,84%,51,388/463,00:01:01,01/28/23 14:14:12
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,10,2,83%,51,386/463,00:01:02,01/28/23 14:03:46
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,8,5,83%,51,383/463,00:01:04,01/28/23 14:20:31
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,5,8,83%,51,383/463,00:01:02,01/28/23 14:18:22
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,3,8,83%,51,386/463,00:01:01,01/28/23 14:15:14
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,2,10,82%,51,382/463,00:01:02,01/28/23 14:01:43
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,2,20,78%,11,362/463,00:01:01,01/28/23 14:02:44
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,20,2,78%,11,362/463,00:01:04,01/28/23 14:06:57
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,10,10,77%,11,357/463,00:01:02,01/28/23 14:04:49
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,10,20,77%,11,357/463,00:01:03,01/28/23 14:05:53
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,20,10,77%,11,357/463,00:01:02,01/28/23 14:07:59
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,20,20,77%,11,357/463,00:01:01,01/28/23 14:09:00
+ronataswestoldturkic/cldf/forms.csv,WOT,EAH,adapt,GothicHungarian/eval_ad.csv,GothicHungarian/cache_ad2.csv,False,False,False,8,8,77%,11,357/463,00:01:03,01/28/23 14:21:35
