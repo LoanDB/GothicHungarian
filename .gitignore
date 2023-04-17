@@ -1,3 +1,4 @@
 german.model
 *.ipynb_checkpoints
 *.egg-info
+venv/
