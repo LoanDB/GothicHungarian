@@ -4,11 +4,13 @@ setup(
     name="GothicHungarian",
     version="1.0",
     packages=find_packages(),
+    install_requires = "spacy>=3.5.2",
     entry_points={
         "console_scripts": [
-            "loaddata = gothuncommands.loaddata:main",
+            "loadinput = gothuncommands.loadinput:main",
             "phonmatch = gothuncommands.phonmatch:main",
-            "semmatch = gothuncommands.semmatch:main"
+            "semmatch = gothuncommands.semmatch:main",
+            "loadcols = gothuncommands.loadcols:main"
         ],
     }
 )
