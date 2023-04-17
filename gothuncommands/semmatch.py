@@ -8,6 +8,7 @@ import json
 from loanpy.loanfinder import semantic_matches
 import spacy
 
+# install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
 
 def semsim(meaning1, meaning2):
@@ -41,15 +42,18 @@ def main():
     # replace ID with list of senses
     dfin = [[row[0], d["hun"][row[1]], d["got"][row[2]]] for row in df_phm[1:]]
     dfin.insert(0, df_phm[0])
-    df_phm[0].append("semsim")
+    header = df_phm[0] + ["semsim"]
     # find semantic matches
     sem = semantic_matches(dfin, semsim, 0)
 
     for row, sem in zip(df_phm[1:], sem):
         row.append(sem)
 
+    df_phm = sorted(df_phm[1:], key=lambda row: row[3], reverse=True)[:1000]
+    df_phm.insert(0, header)
+
     with open("out/semantic_matches.tsv", "w+") as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, delimiter="\t")
         writer.writerows(df_phm)
 
 if __name__ == "__main__":

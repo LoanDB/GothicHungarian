@@ -43,8 +43,9 @@ def main():
         dfhun_entries = list(csv.reader(f))
     with open(args.hun_senses, "r") as f:
         dfhun_senses = list(csv.reader(f))
-    with open(args.gothic, "r") as f:
-        dfgot = list(csv.reader(f))
+    #with open(args.gothic, "r") as f:
+    #    dfgot = list(csv.reader(f))
+    shutil.copy(args.gothic, "raw/gothic.csv")
     with open(args.got_forms, "r") as f:
         dfgot_forms = list(csv.reader(f))
     with open(args.got_senses, "r") as f:
