@@ -21,7 +21,9 @@ Please visit these repositories for more information about the data sources.
 
 ## License
 
-This repository is licensed under the Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) license. You are free to share and adapt the content, as long as you give appropriate credit and indicate any changes made.
+This repository is licensed under the Creative Commons Attribution (CC BY 4.0) license. You are free to share and adapt the content, as long as you give appropriate credit and indicate any changes made.
+
+[![License: CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Installation and Usage
 
