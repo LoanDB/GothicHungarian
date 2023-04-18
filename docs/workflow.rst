@@ -24,7 +24,7 @@ From your command-line, simply run
 
    loadinput
 
-Here's what happened under the hood:
+Here's what happened under the hood: 
 
 .. automodule:: gothuncommands.loadinput
    :members:
