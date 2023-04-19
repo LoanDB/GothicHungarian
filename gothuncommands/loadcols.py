@@ -1,5 +1,5 @@
 """
-Load and transform input data for loanfinder
+Merge IDs in results with relevant columns for manual inspection 
 """
 import csv
 import json
