@@ -1,5 +1,5 @@
 """
-Load and transform input data for loanfinder
+Load and transform input data for loanfinder, save to ``raw`` folder.
 """
 import argparse
 import collections
