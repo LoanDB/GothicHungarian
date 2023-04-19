@@ -24,7 +24,8 @@ Next, from the same directory, run:
    pip install -e GothicHungarian
 
 This will install a command-line interface for running the analysis.
-It will also install one dependency, namely
+It will also install two dependencies, namely `loanpy
+<https://pypi.org/project/loanpy/>``_ and
 `Spacy <https://pypi.org/project/spacy/>`_, for which we need to install
 a pretrained German word-vector model. You can find different
 models on the `Spacy website <https://spacy.io/models/de/>`. Currently
