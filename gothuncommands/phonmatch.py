@@ -8,7 +8,8 @@ from loanpy.loanfinder import phonetic_matches
 
 def main():
     """
-    #. Import loanpy's loanfinder module
+    #. Import `loanpy.loanfinder.phonetic_matches
+       <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.loanfinder.phonetic_matches>`
     #. Read the input data
     #. Pass it on to loanpy
     #. End the function since loanpy writes the file

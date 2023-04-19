@@ -25,10 +25,10 @@ Next, from the same directory, run:
 
 This will install a command-line interface for running the analysis.
 It will also install two dependencies, namely `loanpy
-<https://pypi.org/project/loanpy/>``_ and
+<https://pypi.org/project/loanpy/>`_ and
 `Spacy <https://pypi.org/project/spacy/>`_, for which we need to install
 a pretrained German word-vector model. You can find different
-models on the `Spacy website <https://spacy.io/models/de/>`. Currently
+models on the `Spacy website <https://spacy.io/models/de/>`_. Currently
 this 500 MB model seems to be the most suiting:
 
 .. code-block:: sh
@@ -45,7 +45,7 @@ and to remove it run
 
 .. code-block:: sh
 
-   rm- r venv
+   rm -r venv
 
 Step two: Load the relevant data in the right format
 ====================================================

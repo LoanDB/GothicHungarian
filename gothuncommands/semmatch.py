@@ -12,6 +12,12 @@ import spacy
 nlp = spacy.load('de_core_news_lg')
 
 def semsim(meaning1, meaning2):
+    """
+    #. Convert each meaning to a Spacy-object
+    #. Create cartesian product of both meaning lists with a
+       nested for-loop
+    #. Return the similarity of the most similar pair 
+    """
     meaning1 = [nlp(m) for m in meaning1]
     meaning2 = [nlp(m) for m in meaning2]
     bestsim = 0
@@ -33,28 +39,17 @@ def main():
     """
     # read phonetic matches table
     with open("out/phonetic_matches.tsv", "r") as f:
-        df_phm = list(csv.reader(f, delimiter="\t"))
+        df_idx = list(csv.reader(f, delimiter="\t"))
 
     # read json that contains the meanings
     with open("raw/senses.json", "r") as f:
         d = json.load(f)
 
     # replace ID with list of senses
-    dfin = [[row[0], d["hun"][row[1]], d["got"][row[2]]] for row in df_phm[1:]]
-    dfin.insert(0, df_phm[0])
-    header = df_phm[0] + ["semsim"]
+    df_senses = [[row[0], d["hun"][row[1]], d["got"][row[2]]] for row in df_idx[1:]]
+    df_senses.insert(0, df_idx[0])
     # find semantic matches
-    sem = semantic_matches(dfin, semsim, 0)
-
-    for row, sem in zip(df_phm[1:], sem):
-        row.append(sem)
-
-    df_phm = sorted(df_phm[1:], key=lambda row: row[3], reverse=True)[:1000]
-    df_phm.insert(0, header)
-
-    with open("out/semantic_matches.tsv", "w+") as f:
-        writer = csv.writer(f, delimiter="\t")
-        writer.writerows(df_phm)
+    semantic_matches(df_senses, df_idx, semsim, "out/semantic_matches.tsv", 0)
 
 if __name__ == "__main__":
     main()
