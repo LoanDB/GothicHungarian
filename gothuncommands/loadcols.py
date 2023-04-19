@@ -1,5 +1,6 @@
 """
-Merge IDs in results with relevant columns for manual inspection 
+Merge IDs in ``out/semantic_matches.tsv`` with relevant columns for manual
+inspection. 
 """
 import csv
 import json

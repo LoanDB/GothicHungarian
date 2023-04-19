@@ -1,6 +1,7 @@
 """
-Read the prepared input files and search for phonetic matches
-between Gothic and Hungarian
+Read the prepared input files in folder ``raw`` and search for phonetic
+matches between Gothic and Hungarian. Write result as ``phonetic_matches.tsv``
+to folder ``out``.
 """
 import csv
 

@@ -1,6 +1,7 @@
 """
-Read the phonetic matches file and search for semantic matches
-between Gothic and Hungarian
+Read the phonetic matches file in folder ``out`` and search for
+semantic matches among them. Write results as ``semantic_matches.tsv``
+to folder ``out``.
 """
 import csv
 import json
@@ -16,7 +17,7 @@ def semsim(meaning1, meaning2):
     #. Convert each meaning to a Spacy-object
     #. Create cartesian product of both meaning lists with a
        nested for-loop
-    #. Return the similarity of the most similar pair 
+    #. Return the similarity of the most similar pair
     """
     meaning1 = [nlp(m) for m in meaning1]
     meaning2 = [nlp(m) for m in meaning2]
@@ -30,6 +31,8 @@ def semsim(meaning1, meaning2):
 
 def main():
     """
+    #. Import loanpy.loanfinder.semantic_matches
+       <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.loanfinder.semantic_matches>`_
     #. Read phonetic matches file with csv library
     #. Read related tables that contain the meanings
     #. Grab meanings from related tables and create new input table

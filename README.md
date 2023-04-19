@@ -1,6 +1,6 @@
 # GothicHungarian: Searching for Gothic loanwords in Hungarian
-[![Documentation Status](https://readthedocs.org/projects/gothichungarian/badge/?version=latest)](https://gothichungarian.readthedocs.io/en/latest/?badge=latest)
 [![License: CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Documentation Status](https://readthedocs.org/projects/gothichungarian/badge/?version=latest)](https://gothichungarian.readthedocs.io/en/latest/?badge=latest)
 
 Welcome to the GothicHungarian GitHub repository! This repository contains Python scripts developed as part of my ongoing PhD thesis at the University of Vienna. The repository is organised into three folders containing Python scripts, raw data, and output data.
 
