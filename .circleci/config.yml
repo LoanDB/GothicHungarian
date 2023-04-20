@@ -8,9 +8,6 @@ jobs:
     executor: python/default
     steps:
       - run:
-          name: Clone repo
-          command: git clone https://github.com/martino-vic/gerstnerhungarian.git
-      - run:
           name: Clone repositories
           command: |
             git clone https://github.com/LoanpyDataHub/GothicHungarian.git
