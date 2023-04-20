@@ -80,7 +80,7 @@ def main():
         json.dump({"got": gotsensedict, "hun": hunsensedict}, f)
 
     # add the relevant columns to new df and write rows
-    with open("raw/hungarian.tsv", "w+") as f:
+    with open("GothicHungarian/raw/hungarian.tsv", "w+") as f:
         writer = csv.writer(f, delimiter="\t")
         writer.writerow(["ID", "EntryID", "rc100"])
         for row in dfhun[1:]:
