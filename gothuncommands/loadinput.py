@@ -19,22 +19,22 @@ def main():
     # read filenames with argparse library
     parser = argparse.ArgumentParser(description='Load Hungarian and Gothic data.')
     parser.add_argument('--hungarian', type=str,
-                        default='../gerstnerhungarian/loanpy/hun1416all.tsv',
+                        default='gerstnerhungarian/loanpy/hun1416all.tsv',
                         help='Path to the Hungarian TSV file.')
     parser.add_argument('--hun_entries', type=str,
-                        default='../gerstnerhungarian/cldf/entries.csv',
+                        default='gerstnerhungarian/cldf/entries.csv',
                         help='Path to Hungarian entries table.')
     parser.add_argument('--hun_senses', type=str,
-                        default='../gerstnerhungarian/cldf/senses.csv',
+                        default='gerstnerhungarian/cldf/senses.csv',
                         help='Path to Hungarian senses table.')
     parser.add_argument('--gothic', type=str,
-                        default='../koeblergothic/cldf/adapt.csv',
+                        default='koeblergothic/cldf/adapt.csv',
                             help='Path to the Gothic csv file.')
     parser.add_argument('--got_forms', type=str,
-                        default='../koeblergothic/cldf/forms.csv',
+                        default='koeblergothic/cldf/forms.csv',
                         help='Path to the Gothic forms table.')
     parser.add_argument('--got_senses', type=str,
-                        default='../koeblergothic/cldf/senses.csv',
+                        default='koeblergothic/cldf/senses.csv',
                         help='Path to the Gothic senses table.')
     args = parser.parse_args()
 
@@ -45,7 +45,7 @@ def main():
         dfhun_entries = list(csv.reader(f))
     with open(args.hun_senses, "r") as f:
         dfhun_senses = list(csv.reader(f))
-    shutil.copy(args.gothic, "raw/gothic.csv")
+    shutil.copy(args.gothic, "GothicHungarian/raw/gothic.csv")
     with open(args.got_forms, "r") as f:
         dfgot_forms = list(csv.reader(f))
     with open(args.got_senses, "r") as f:
@@ -76,7 +76,7 @@ def main():
                 gotsensedict[row[1]].append(srow[3])  # spacy
 
     # Write Gothic and Hungarian senses dictionary to json-file
-    with open("raw/senses.json", "w+") as f:
+    with open("GothicHungarian/raw/senses.json", "w+") as f:
         json.dump({"got": gotsensedict, "hun": hunsensedict}, f)
 
     # add the relevant columns to new df and write rows

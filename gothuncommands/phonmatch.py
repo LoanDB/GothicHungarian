@@ -16,12 +16,12 @@ def main():
     #. End the function since loanpy writes the file
 
     """
-    with open("raw/hungarian.tsv", "r") as f:
+    with open("GothicHungarian/raw/hungarian.tsv", "r") as f:
         hun = list(csv.reader(f, delimiter="\t"))
-    with open("raw/gothic.csv", "r") as f:
+    with open("GothicHungarian/raw/gothic.csv", "r") as f:
         got = list(csv.reader(f))
 
-    phonetic_matches(hun, got, "out/phonetic_matches.tsv")
+    phonetic_matches(hun, got, "GothicHungarian/out/phonetic_matches.tsv")
 
 if __name__ == "__main__":
     main()

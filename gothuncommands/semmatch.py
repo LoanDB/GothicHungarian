@@ -41,11 +41,11 @@ def main():
 
     """
     # read phonetic matches table
-    with open("out/phonetic_matches.tsv", "r") as f:
+    with open("GothicHungarian/out/phonetic_matches.tsv", "r") as f:
         df_phonmatch = list(csv.reader(f, delimiter="\t"))
 
     # read json that contains the meanings
-    with open("raw/senses.json", "r") as f:
+    with open("GothicHungarian/raw/senses.json", "r") as f:
         id2senses = json.load(f)
 
     # replace ID with list of senses
@@ -57,7 +57,7 @@ def main():
         except KeyError:
             pass
     # find semantic matches
-    semantic_matches(df_sem_in, semsim, "out/semantic_matches.tsv", 0)
+    semantic_matches(df_sem_in, semsim, "GothicHungarian/out/semantic_matches.tsv", 0)
 
 if __name__ == "__main__":
     main()

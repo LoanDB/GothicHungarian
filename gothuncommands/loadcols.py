@@ -14,15 +14,15 @@ def main():
 
     """
     # read semantic matches, assign to variable
-    with open("out/semantic_matches.tsv", "r") as f:
+    with open("GothicHungarian/out/semantic_matches.tsv", "r") as f:
         dfsem = list(csv.reader(f, delimiter="\t"))
 
     # read related tables and json
-    with open("../gerstnerhungarian/cldf/entries.csv", "r") as f:
+    with open("gerstnerhungarian/cldf/entries.csv", "r") as f:
         dfhun_entries = list(csv.reader(f))
-    with open("../koeblergothic/cldf/forms.csv", "r") as f:
+    with open("koeblergothic/cldf/forms.csv", "r") as f:
         dfgot_forms = list(csv.reader(f))
-    with open("raw/senses.json", "r") as f:
+    with open("GothicHungarian/raw/senses.json", "r") as f:
         senses = json.load(f)
 
     # store info from hungarian entries.csv cols Headword, Etymology 2 dicts
@@ -42,7 +42,7 @@ def main():
     f_id2segments = dict(zip(f_ids, segments))
 
     # add info from dicts to table
-    with open("out/semantic_matches.tsv", "w+") as f:
+    with open("GothicHungarian/out/semantic_matches.tsv", "w+") as f:
         writer = csv.writer(f, delimiter="\t")
         #write header
         #newcols = ["hun", "got", "Segments", "Etymology", "sense_got", "sense_hun"]
