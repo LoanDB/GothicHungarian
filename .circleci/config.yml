@@ -1,0 +1,48 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@0.3.2
+
+jobs:
+  build:
+    executor: python/default
+    steps:
+      - run:
+          name: Clone repo
+          command: git clone https://github.com/martino-vic/gerstnerhungarian.git
+      - run:
+          name: Clone repositories
+          command: |
+            git clone https://github.com/LoanpyDataHub/GothicHungarian.git
+            git clone https://github.com/LoanpyDataHub/gerstnerhungarian
+            git clone https://github.com/LoanpyDataHub/koeblergothic
+      - run:
+          name: install commands & download spacy word vector model
+          command: |
+            pip install -e GothicHungarian
+            pip install -e loanpy
+            python3 -m spacy download de_core_news_lg
+      - run:
+          name: run analysis
+          command: loadinput && phonmatch && semmatch && loadcols
+
+      - run:
+          name: Check if output OK
+          command: >
+            output_file_path="out/semantic_matches.tsv" &&
+            modified_within_hour=$(find "$output_file_path" -type f -mmin -60)
+
+            if [ -z "$modified_within_hour" ];
+            then echo "Output file not generated within last hour."; exit 1;
+            else echo "Output file generated within last hour."; fi
+
+            file=$output_file_path && lines=$(wc -l < "$file")
+
+            if [ "$lines" -ne 9527 ];
+            then echo length not 9527 lines but $lines; exit 1;
+            else echo OK; fi
+
+workflows:
+  main:
+    jobs:
+      - build
