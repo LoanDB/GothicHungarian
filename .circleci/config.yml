@@ -13,6 +13,7 @@ jobs:
             git clone https://github.com/LoanpyDataHub/GothicHungarian.git
             git clone https://github.com/LoanpyDataHub/gerstnerhungarian
             git clone https://github.com/LoanpyDataHub/koeblergothic
+            git clone https://github.com/LoanpyDataHub/loanpy.git
       - run:
           name: install commands & download spacy word vector model
           command: |
