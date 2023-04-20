@@ -1,5 +1,5 @@
 """
-preparation:
+Preparation:
 
 .. code-block:: sh
 
