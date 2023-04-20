@@ -27,12 +27,12 @@ jobs:
       - run:
           name: Check if output OK
           command: >
-            output_file_path="out/semantic_matches.tsv" &&
+            output_file_path="GothicHungarian/out/semantic_matches.tsv" &&
             modified_within_hour=$(find "$output_file_path" -type f -mmin -60)
 
             if [ -z "$modified_within_hour" ];
             then echo "Output file not generated within last hour."; exit 1;
-            else echo "Output file generated within last hour."; fi
+            else echo OK; fi
 
             file=$output_file_path && lines=$(wc -l < "$file")
 
