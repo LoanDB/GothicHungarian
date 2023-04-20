@@ -65,14 +65,14 @@ def main():
     hunsensedict = collections.defaultdict(list)
     for row in dfhun:
         for srow in dfhun_senses:
-            if srow[2] == row[1]:
+            if srow[2] == row[1] and srow[3]:  # IDs match and spacy != ""
                 hunsensedict[row[1]].append(srow[3])  # spacy
 
     # create json-dictionary to translate Gothic IDs to a list of senses
     gotsensedict = collections.defaultdict(list)
     for i, row in enumerate(dfgot_forms[1:]):
         for srow in dfgot_senses[1:]:
-            if srow[4] == form2paraID[row[1]]:
+            if srow[4] == form2paraID[row[1]] and srow[3]:  # not ""
                 gotsensedict[row[1]].append(srow[3])  # spacy
 
     # Write Gothic and Hungarian senses dictionary to json-file

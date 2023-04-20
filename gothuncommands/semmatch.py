@@ -42,17 +42,22 @@ def main():
     """
     # read phonetic matches table
     with open("out/phonetic_matches.tsv", "r") as f:
-        df_idx = list(csv.reader(f, delimiter="\t"))
+        df_phonmatch = list(csv.reader(f, delimiter="\t"))
 
     # read json that contains the meanings
     with open("raw/senses.json", "r") as f:
-        d = json.load(f)
+        id2senses = json.load(f)
 
     # replace ID with list of senses
-    df_senses = [[row[0], d["hun"][row[1]], d["got"][row[2]]] for row in df_idx[1:]]
-    df_senses.insert(0, df_idx[0])
+    df_sem_in = [df_phonmatch[0] + ["Hungarian", "Gothic"]]
+    for i, row in enumerate(df_phonmatch[1:]):
+        try:
+            row += [id2senses["hun"][row[1]], id2senses["got"][row[2]]]
+            df_sem_in.append(row)
+        except KeyError:
+            pass
     # find semantic matches
-    semantic_matches(df_senses, df_idx, semsim, "out/semantic_matches.tsv", 0)
+    semantic_matches(df_sem_in, semsim, "out/semantic_matches.tsv", 0)
 
 if __name__ == "__main__":
     main()

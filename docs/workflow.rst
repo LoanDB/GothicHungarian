@@ -1,3 +1,9 @@
+TL;DR
+=====
+
+.. automodule:: gothuncommands.__init__
+   :members:
+
 Step one: Download and install this repository
 ==============================================
 
