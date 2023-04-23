@@ -19,7 +19,7 @@ def main():
     # read filenames with argparse library
     parser = argparse.ArgumentParser(description='Load Hungarian and Gothic data.')
     parser.add_argument('--hungarian', type=str,
-                        default='gerstnerhungarian/loanpy/hun1416all.tsv',
+                        default='gerstnerhungarian/loanpy/hun1416unknown,uncertain.tsv',
                         help='Path to the Hungarian TSV file.')
     parser.add_argument('--hun_entries', type=str,
                         default='gerstnerhungarian/cldf/entries.csv',

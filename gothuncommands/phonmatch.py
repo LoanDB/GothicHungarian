@@ -21,7 +21,7 @@ def main():
     with open("GothicHungarian/raw/gothic.csv", "r") as f:
         got = list(csv.reader(f))
 
-    phonetic_matches(hun, got, "GothicHungarian/out/phonetic_matches.tsv")
+    phonetic_matches(hun, got, "GothicHungarian/out/phonetic_matches.tsv", 10)
 
 if __name__ == "__main__":
     main()

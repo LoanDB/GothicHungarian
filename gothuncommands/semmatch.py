@@ -57,7 +57,7 @@ def main():
         except KeyError:
             pass
     # find semantic matches
-    semantic_matches(df_sem_in, semsim, "GothicHungarian/out/semantic_matches.tsv", 0)
+    semantic_matches(df_sem_in, semsim, "GothicHungarian/out/semantic_matches.tsv", 0.4)
 
 if __name__ == "__main__":
     main()
