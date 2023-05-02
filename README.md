@@ -28,12 +28,12 @@ This repository is licensed under the Creative Commons Attribution (CC BY 4.0) l
 
 ## Installation and Usage
 
-To replicate the results follow the steps described in the [documentation](https://gothichungarian.readthedocs.io/en/latest/?badge=latest)
+To replicate the results follow the steps described in the [documentation](https://gothichungarian.readthedocs.io/en/latest/?badge=latest) and the [loanpy tutorial](https://loanpy.readthedocs.io/en/latest/tutorial.html)
 
 ## Contributing
 
-If you would like to contribute to the project, feel free to fork the repository and submit a pull request with your changes. We appreciate your collaboration! Also check out our Contribution Guidelines!
+If you would like to contribute to the project, feel free to fork the repository and submit a pull request with your changes. I appreciate your collaboration! Also check out the Contribution Guidelines!
 
 ## Contact
 
-If you have any questions or suggestions, please feel free to contact me via [email](mailto:viktor_martinovic@$removethis$eva.mpg.de).
+If you have any questions or suggestions, please feel free to contact me via [email](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik).

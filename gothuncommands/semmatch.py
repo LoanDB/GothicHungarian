@@ -31,7 +31,7 @@ def semsim(meaning1, meaning2):
 
 def main():
     """
-    #. Import loanpy.loanfinder.semantic_matches
+    #. Import `loanpy.loanfinder.semantic_matches
        <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.loanfinder.semantic_matches>`_
     #. Read phonetic matches file with csv library
     #. Read related tables that contain the meanings

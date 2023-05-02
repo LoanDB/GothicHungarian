@@ -28,7 +28,7 @@ def main():
                         default='gerstnerhungarian/cldf/senses.csv',
                         help='Path to Hungarian senses table.')
     parser.add_argument('--gothic', type=str,
-                        default='koeblergothic/cldf/adapt.csv',
+                        default='koeblergothic/cldf/adapt100.csv',
                             help='Path to the Gothic csv file.')
     parser.add_argument('--got_forms', type=str,
                         default='koeblergothic/cldf/forms.csv',
