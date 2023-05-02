@@ -20,7 +20,11 @@ The raw data in this repository is based on the following repositories:
 2. [koeblergothic](https://github.com/LoanpyDataHub/koeblergothic)
 3. [ronataswestoldturkic](https://github.com/LoanpyDataHub/ronataswestoldturkic)
 
-Please visit these repositories for more information about the data sources.
+And much of the analysis is carried out with:
+
+- [LoanPy](https://github.com/LoanpyDataHub/loanpy)
+
+Please visit these repositories for more information about the data sources and their processing.
 
 ## License
 

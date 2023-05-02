@@ -1,3 +1,6 @@
+Home
+~~~~
+
 GothicHungarian: Searching for Gothic loanwords in Hungarian
 ============================================================
 
@@ -28,8 +31,12 @@ The raw data in this repository is based on the following repositories:
 2. `koeblergothic <https://github.com/LoanpyDataHub/koeblergothic>`__
 3. `ronataswestoldturkic <https://github.com/LoanpyDataHub/ronataswestoldturkic>`__
 
+And much of the analysis is carried out with:
+
+- `LoanPy <https://github.com/LoanpyDataHub/loanpy>`__
+
 Please visit these repositories for more information about the data
-sources.
+sources and their processing.
 
 License
 -------
