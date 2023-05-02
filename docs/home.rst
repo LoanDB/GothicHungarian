@@ -58,7 +58,8 @@ Contributing
 
 If you would like to contribute to the project, feel free to fork the
 repository and submit a pull request with your changes. I appreciate
-your collaboration! Also check out the Contribution Guidelines!
+your collaboration! Also check out the `Contribution Guidelines!
+<https://github.com/LoanpyDataHub/GothicHungarian/blob/main/CONTRIBUTING.md>`_
 
 Contact
 -------
