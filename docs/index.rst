@@ -10,6 +10,8 @@ Welcome to GothicHungarian's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   home.rst
+   TL;DR.rst
    workflow.rst
 
 Indices and tables
