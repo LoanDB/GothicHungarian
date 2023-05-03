@@ -8,8 +8,8 @@ If you are passionate about ancient language contacts and want to contribute to 
 
 1. Familiarise yourself with the project by reading the [docs](https://gothichungarian.readthedocs.io/en/latest/home.html).
 2. Explore the related datasets [ronataswestoldturkic](https://github.com/LoanpyDataHub/ronataswestoldturkic), [gerstnerhungarian](https://github.com/LoanpyDataHub/gerstnerhungarian), and [koeblergothic](https://github.com/LoanpyDataHub/koeblergothic).
-4. Review the contribution guidelines detailed in this document.
-5. Contact me via [e-mail](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik) expressing your interest in contributing.
+3. Review the contribution guidelines detailed in this document.
+4. Contact me via [e-mail](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik) expressing your interest in contributing.
 
 ## Contribution Guidelines
 
