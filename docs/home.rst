@@ -48,7 +48,7 @@ you give appropriate credit and indicate any changes made.
 Installation and Usage
 ----------------------
 
-To replicate the results follow the steps described in the
+To replicate the results, follow the steps described in the
 `documentation <https://gothichungarian.readthedocs.io/en/latest/?badge=latest>`__
 and the `loanpy
 tutorial <https://loanpy.readthedocs.io/en/latest/tutorial.html>`__

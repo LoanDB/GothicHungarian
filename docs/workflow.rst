@@ -32,7 +32,12 @@ It will also install two dependencies, namely `loanpy
 `Spacy <https://pypi.org/project/spacy/>`_, for which we need to install
 a pretrained German word-vector model. You can find different
 models on the `Spacy website <https://spacy.io/models/de/>`_. Currently
-this 500 MB model seems to be the most suiting:
+this 500 MB model seems to be the most suiting (But make sure to use the same
+model as in `gerstnerhungarian
+<https://github.com/LoanpyDataHub/gerstnerhungarian>`__
+and `koeblergothic <https://github.com/LoanpyDataHub/koeblergothic>`__
+because entries in those repositories were filtered out if they were missing
+from this particular word-vector model):
 
 .. code-block:: sh
 
