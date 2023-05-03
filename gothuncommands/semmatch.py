@@ -36,7 +36,8 @@ def main():
     #. Read phonetic matches file with csv library
     #. Read related tables that contain the meanings
     #. Grab meanings from related tables and create new input table
-    #. Input the table to the loanfinder module's semantic_matches function
+    #. Input the table to loanpy.loanfinder.semantic_matches
+       <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.loanfinder.semantic_matches>`_
     #. End the function since loanpy writes the file
 
     """
