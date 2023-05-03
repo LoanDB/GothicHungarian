@@ -1,14 +1,13 @@
 # Contributing to the Hungarian Etymological CLDF Dataset
 
-Thank you for considering to contribute to our Hungarian etymological data project! This project aims to convert some of the data from the "New Hungarian Etymological Dictionary" (Gerstner 2022) into the CLDF format. The dictionary contains modern Hungarian words as headwords, along with their etymological source language and year of first appearance in a written source. The oldest layer is inherited from Proto-Uralic, followed chronologically by Proto-Finno-Ugric and Proto-Ugric. The next oldest layer is borrowed from a Turkic language called West Old Turkic, or Proto-Bolgar. Standardising the way Hungarian etymologies are stored makes it easier to compare them with etymologies from other languages and facilitates various quantitative analyses that can lead to new insights about the origins of the Hungarian language.
+Thank you for considering to contribute to this repository containing the results of my University of Vienna PhD project "Gothic loanwords in Hungarian"! This project aims to search for old Gothic loanwords in Hungarian. The input comes from three dictionaries: Two Hungarian etymological dictionaries: West Old Turkic (Róna-Tas and Berta 2011) and the New Hungarian Etymological Dictionary (Gerstner 2011-2022), and one Gothic dictionary (Köbler 2014). Two models were trained to predict how Hungarian words change as we travel back through time and how Gothic words change as they are adapted into ancient Hungarian. This repository contains the results of searching for phonetic and semantic overlaps between those predictions. Those are candidates for old Gothic loanwords in Hungarian.
 
 ## How to Contribute
 
-We have only converted a fraction of the data from the PDF dictionary to the CLDF format. If you are passionate about finding out more about the origin of the Hungarian language through computational approaches, and have ideas how to improve this dataset, follow the steps below:
+If you are passionate about ancient language contacts and want to contribute to searching for Gothic loanwords in Hungarian computationally, follow the steps below:
 
-1. Familiarise yourself with the project by reading the [README.md](https://github.com/martino-vic/gerstnerhungarian/blob/main/README.md).
-2. Make sure to know the basics of [Cross Linguistic Data Formats](https://cldf.clld.org/).
-3. Explore the original etymological dictionary [New Hungarian Etymological Dictionary](https://uesz.nytud.hu/index.html).
+1. Familiarise yourself with the project by reading the [docs](https://gothichungarian.readthedocs.io/en/latest/home.html).
+2. Explore the related datasets [ronataswestoldturkic](https://github.com/LoanpyDataHub/ronataswestoldturkic), [gerstnerhungarian](https://github.com/LoanpyDataHub/gerstnerhungarian), and [koeblergothic](https://github.com/LoanpyDataHub/koeblergothic).
 4. Review the contribution guidelines detailed in this document.
 5. Contact me via [e-mail](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik) expressing your interest in contributing.
 
@@ -29,11 +28,11 @@ By following these guidelines, you help maintain a high-quality dataset and make
 
 If you have any questions or need assistance, please don't hesitate to contact me via [e-mail](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik). I appreciate your interest and look forward to collaborating with you!
 
-#Submitting Content Reports
+## Submitting Content Reports
 
 If you encounter content in our repository that violates our community guidelines, is inappropriate, or needs attention from the repository maintainers, we encourage you to submit a content report. Your collaboration helps us maintain a positive and inclusive community, ensuring our repository remains a safe and welcoming space for everyone.
 
-## To submit a content report, please follow these steps:
+To submit a content report, please follow these steps:
 
 1. Go to the "Issues" tab in our repository.
 2. Click on "New Issue" to create a new issue.
