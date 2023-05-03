@@ -45,6 +45,12 @@ This repository is licensed under the Creative Commons Attribution (CC
 BY 4.0) license. You are free to share and adapt the content, as long as
 you give appropriate credit and indicate any changes made.
 
+Citation
+--------
+
+.. image:: https://zenodo.org/badge/478210252.svg
+   :target: https://zenodo.org/badge/latestdoi/478210252
+
 Installation and Usage
 ----------------------
 
