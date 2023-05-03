@@ -9,7 +9,7 @@ If you are passionate about ancient language contacts and want to contribute to 
 1. Familiarise yourself with the project by reading the [docs](https://gothichungarian.readthedocs.io/en/latest/home.html).
 2. Explore the related datasets [ronataswestoldturkic](https://github.com/LoanpyDataHub/ronataswestoldturkic), [gerstnerhungarian](https://github.com/LoanpyDataHub/gerstnerhungarian), and [koeblergothic](https://github.com/LoanpyDataHub/koeblergothic).
 3. Review the contribution guidelines detailed in this document.
-4. Contact me via [e-mail](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik) expressing your interest in contributing.
+4. Open an issue or contact me.
 
 ## Contribution Guidelines
 
@@ -27,21 +27,3 @@ By following these guidelines, you help maintain a high-quality dataset and make
 ## Communication
 
 If you have any questions or need assistance, please don't hesitate to contact me via [e-mail](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik). I appreciate your interest and look forward to collaborating with you!
-
-## Submitting Content Reports
-
-If you encounter content in our repository that violates our community guidelines, is inappropriate, or needs attention from the repository maintainers, we encourage you to submit a content report. Your collaboration helps us maintain a positive and inclusive community, ensuring our repository remains a safe and welcoming space for everyone.
-
-To submit a content report, please follow these steps:
-
-1. Go to the "Issues" tab in our repository.
-2. Click on "New Issue" to create a new issue.
-3. Select the "Content Report: Inappropriate or Violating Material" issue template.
-4. Provide a clear and concise title for your content report.
-5. In the issue description, include detailed information about the content you're reporting. This should cover:
-    - A clear description of the issue
-    - The location of the content within the repository (such as file path, line number, or URL)
-    - Any additional context that will help us understand the problem
-6. Submit the issue by clicking on "Submit new issue".
-
-We will review your report and take appropriate action as necessary. We appreciate your help in keeping our community respectful and inclusive.
