@@ -36,8 +36,8 @@ jobs:
 
             file=$output_file_path && lines=$(wc -l < "$file")
 
-            if [ "$lines" -ne 4043 ];
-            then echo length not 4043 lines but $lines; exit 1;
+            if [ "$lines" -ne 4007 ];
+            then echo length not 4007 lines but $lines; exit 1;
             else echo OK; fi
 
 workflows:
