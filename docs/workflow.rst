@@ -102,3 +102,12 @@ From your command-line, run
 
 .. automodule:: gothuncommands.loadcols
    :members:
+
+Step 6: Manually inspect the results
+====================================
+
+Open the file in a spread-sheet software, sort the rows according to
+semantic similarity (column ``semsim``) and within that according to
+cognate ID (column ``ID_s``). Carefully look at the matches:
+Pick candidate loanwords where the phonetic matching and the semantic shift
+looks plausible.
