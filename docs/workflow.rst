@@ -1,7 +1,7 @@
 Create results
 ~~~~~~~~~~~~~~
 
-Step one: Download and install this repository
+Step 1: Download and install this repository
 ==============================================
 
 Create and activate a virtual environment and clone this repository
@@ -43,19 +43,19 @@ from this particular word-vector model):
 
    python3 -m spacy download de_core_news_lg
 
-To deactivate the virtual environment run
+To deactivate the virtual environment run:
 
 .. code-block:: sh
 
    deactivate
 
-and to remove it run
+and to remove it run:
 
 .. code-block:: sh
 
    rm -r venv
 
-Step two: Load the relevant data in the right format
+Step 2: Load the relevant data in the right format
 ====================================================
 
 From your command-line, run
@@ -67,7 +67,7 @@ From your command-line, run
 .. automodule:: gothuncommands.loadinput
    :members:
 
-Step three: Search for phonetic matches
+Step 3: Search for phonetic matches
 =======================================
 
 From your command-line, run
@@ -79,7 +79,7 @@ From your command-line, run
 .. automodule:: gothuncommands.phonmatch
    :members:
 
-Step four: Search for semantic matches
+Step 4: Search for semantic matches
 ======================================
 
 From your command-line, run
@@ -91,7 +91,7 @@ From your command-line, run
 .. automodule:: gothuncommands.semmatch
    :members:
 
-Step five: Load columns for manual inspection
+Step 5: Load columns for manual inspection
 =============================================
 
 From your command-line, run
