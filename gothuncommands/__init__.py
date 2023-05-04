@@ -7,10 +7,8 @@ Preparation:
    git clone https://github.com/LoanpyDataHub/GothicHungarian.git
    git clone https://github.com/LoanpyDataHub/gerstnerhungarian
    git clone https://github.com/LoanpyDataHub/koeblergothic
-   git clone https://github.com/LoanpyDataHub/loanpy.git
 
    pip install -e GothicHungarian
-   pip install -e loanpy
 
    python3 -m spacy download de_core_news_lg
 
