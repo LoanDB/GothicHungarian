@@ -17,7 +17,6 @@ jobs:
           name: install commands & loanpy & download spacy word vector model
           command: |
             pip install -e GothicHungarian
-            pip install loanpy
             python3 -m spacy download de_core_news_lg
       - run:
           name: run analysis
